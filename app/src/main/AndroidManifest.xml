@@ -14,6 +14,9 @@
         android:theme="@style/Theme.TaskTracker"
         tools:targetApi="31">
         <activity
+            android:name=".navMenu"
+            android:exported="false" />
+        <activity
             android:name=".task_creation"
             android:exported="false" />
         <activity

@@ -3,10 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/TaskTracker/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/TaskTracker/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/TaskTracker/app/src/main/res/layout/activity_nav_menu.xml" value="0.2" />
         <entry key="..\:/TaskTracker/app/src/main/res/layout/activity_task_creation.xml" value="0.2" />
-        <entry key="..\:/TaskTracker/app/src/main/res/layout/activity_task_item.xml" value="0.18" />
-        <entry key="..\:/TaskTracker/app/src/main/res/layout/activity_task_list.xml" value="0.12604166666666666" />
+        <entry key="..\:/TaskTracker/app/src/main/res/layout/activity_task_item.xml" value="0.2" />
+        <entry key="..\:/TaskTracker/app/src/main/res/layout/activity_task_list.xml" value="0.22" />
+        <entry key="..\:/TaskTracker/app/src/main/res/menu/menu.xml" value="0.2" />
+        <entry key="..\:/TaskTracker/app/src/main/res/menu/menu2.xml" value="0.19895833333333332" />
+        <entry key="..\:/TaskTracker/app/src/main/res/menu/nav_menu.xml" value="0.5" />
       </map>
     </option>
   </component>
