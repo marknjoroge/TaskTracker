@@ -3,14 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/TaskTracker/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/TaskTracker/app/src/main/res/layout/activity_description_card.xml" value="0.12631578947368421" />
+        <entry key="..\:/TaskTracker/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
         <entry key="..\:/TaskTracker/app/src/main/res/layout/activity_nav_menu.xml" value="0.2" />
-        <entry key="..\:/TaskTracker/app/src/main/res/layout/activity_task_creation.xml" value="0.2" />
-        <entry key="..\:/TaskTracker/app/src/main/res/layout/activity_task_item.xml" value="0.2" />
-        <entry key="..\:/TaskTracker/app/src/main/res/layout/activity_task_list.xml" value="0.22" />
+        <entry key="..\:/TaskTracker/app/src/main/res/layout/activity_restore_item_card.xml" value="0.20416666666666666" />
+        <entry key="..\:/TaskTracker/app/src/main/res/layout/activity_task_card.xml" value="0.33" />
+        <entry key="..\:/TaskTracker/app/src/main/res/layout/activity_task_creation.xml" value="0.20102564102564102" />
+        <entry key="..\:/TaskTracker/app/src/main/res/layout/activity_task_item.xml" value="0.25" />
+        <entry key="..\:/TaskTracker/app/src/main/res/layout/activity_task_list.xml" value="0.25" />
+        <entry key="..\:/TaskTracker/app/src/main/res/layout/description_card.xml" value="0.2" />
         <entry key="..\:/TaskTracker/app/src/main/res/menu/menu.xml" value="0.2" />
         <entry key="..\:/TaskTracker/app/src/main/res/menu/menu2.xml" value="0.19895833333333332" />
         <entry key="..\:/TaskTracker/app/src/main/res/menu/nav_menu.xml" value="0.5" />
+        <entry key="..\:/TaskTracker/app/src/main/res/menu/show_menu.xml" value="0.19895833333333332" />
       </map>
     </option>
   </component>

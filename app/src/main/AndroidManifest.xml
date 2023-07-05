@@ -14,6 +14,9 @@
         android:theme="@style/Theme.TaskTracker"
         tools:targetApi="31">
         <activity
+            android:name=".restoreItemCard"
+            android:exported="false" />
+        <activity
             android:name=".navMenu"
             android:exported="false" />
         <activity
@@ -23,10 +26,10 @@
             android:name=".task_item"
             android:exported="false" />
         <activity
-            android:name=".task_list"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".task_list"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
