@@ -45,7 +45,7 @@ class TasksAdapter :
                 cardEndDate=view.findViewById(R.id.cardDueDate)
                 cardTaskName=view.findViewById(R.id.cardTaskName)
                 status=view.findViewById(R.id.status)
-                deleteTaskBtn=view.findViewById(R.id.deleteLink)
+                //deleteTaskBtn=view.findViewById(R.id.deleteLink)
 
                 itemView.setOnClickListener {
                     listener.onItemClick(adapterPosition)

@@ -12,8 +12,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val deleteLink = findViewById<TextView>(R.id.deleteLink)
-        deleteLink.paintFlags = deleteLink.paintFlags or Paint.UNDERLINE_TEXT_FLAG
+       // val deleteLink = findViewById<TextView>(R.id.deleteLink)
+      //  deleteLink.paintFlags = deleteLink.paintFlags or Paint.UNDERLINE_TEXT_FLAG
 
     }
 }

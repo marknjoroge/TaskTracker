@@ -6,343 +6,240 @@
     android:layout_height="match_parent"
     tools:context=".task_item"
     >
-
-
-    <!--<LinearLayout
-        android:id="@+id/ll_user_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:orientation="vertical"
-        android:padding="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <TextView
-            android:id="@+id/tv_user_name"
-            android:layout_width="360dp"
-            android:layout_height="30dp"
-             />
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/tv_user_name_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:text="  Task Title  "
-        android:textSize="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
-    <RelativeLayout
-        android:id="@+id/describeFun"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ll_user_name">
-
-        <LinearLayout
-            android:id="@+id/description"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:orientation="vertical"
-            android:padding="15dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintVertical_bias="0.078">
-
-            <TextView
-                android:id="@+id/describe"
-                android:layout_width="360dp"
-                android:layout_height="130dp" />
-        </LinearLayout>
-
-      <TextView
-            android:id="@+id/Description"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:textSize="20"
-           android:text="Description"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-    </RelativeLayout>
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="222dp"
-        android:layout_height="27dp"
-        android:layout_marginTop="44dp"
-        android:text="Due Date"
+    <ImageView
+        android:id="@+id/notebook"
+        android:layout_width="409dp"
+        android:layout_height="190dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.169"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/describeFun"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="216dp"
-        android:layout_height="30dp"
-        android:text="Completion Status"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.09"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"
-        app:layout_constraintVertical_bias="0.042" />
-
-    <Spinner
-        android:id="@+id/state"
-        android:layout_width="396dp"
-        android:layout_height="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11"
-        app:layout_constraintVertical_bias="0.046" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="173dp"
-        android:layout_height="38dp"
-        android:text="Save State"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.455"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/state"
-        app:layout_constraintVertical_bias="0.087" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="151dp"
-        android:layout_height="42dp"
-        android:text="Edit Task"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.419"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.066" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="168dp"
-        android:layout_height="45dp"
-        android:text="DELETE TASK"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.45"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.064" />-->
-
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/taskNameCard"
-        android:layout_width="400dp"
-        android:layout_height="79dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.238"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.001">
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/pen_and_paper" />
+    <ImageView
+        android:id="@+id/notificationIcon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/notification_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <LinearLayout
-            android:id="@+id/ll_user_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:orientation="vertical"
-            android:padding="15dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-            <TextView
-                android:id="@+id/taskTitle"
-                android:layout_width="360dp"
-                android:layout_height="30dp" />
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/tv_user_name_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:text="Task Title"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/DescriptionCard"
-        android:layout_width="413dp"
-        android:layout_height="152dp"
+    <LinearLayout
+        android:id="@+id/taskLayout"
+        android:layout_width="338dp"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/taskNameCard"
-        app:layout_constraintVertical_bias="0.044">
+        app:layout_constraintTop_toBottomOf="@+id/notebook"
+        app:layout_constraintVertical_bias="0.016">
 
-        <LinearLayout
-            android:id="@+id/description"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:orientation="vertical"
-            android:padding="15dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintVertical_bias="0.078">
-
-            <TextView
-                android:id="@+id/describe"
-                android:layout_width="360dp"
-                android:layout_height="130dp" />
-        </LinearLayout>
 
         <TextView
-            android:id="@+id/Description"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
+            android:id="@+id/taskName"
+            android:layout_width="83dp"
+            android:layout_height="36dp"
+            android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+            android:text="Task"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <!--<com.google.android.material.textfield.TextInputLayout
+            android:layout_width="284dp"
+            android:layout_height="match_parent">-->
+
+        <EditText
+            android:id="@+id/editTaskName"
+            android:layout_width="253dp"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+        <!--</com.google.android.material.textfield.TextInputLayout>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/describeLayout"
+        android:layout_width="359dp"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/taskLayout"
+        app:layout_constraintVertical_bias="0.016">
+
+
+        <TextView
+            android:id="@+id/Details"
+            android:layout_width="110dp"
+            android:layout_height="36dp"
+            android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
             android:text="Description"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-    </androidx.cardview.widget.CardView>
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/StartDateCard"
-        android:layout_width="391dp"
-        android:layout_height="87dp"
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="267dp"
+            android:layout_height="match_parent">
+
+
+            <EditText
+                android:id="@+id/describeTask"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:lines="7" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/time"
+        android:layout_width="378dp"
+        android:layout_height="36dp"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/DescriptionCard"
-        app:layout_constraintVertical_bias="0.066">
+        app:layout_constraintTop_toBottomOf="@+id/describeLayout"
+        app:layout_constraintVertical_bias="0.016">
 
-        <LinearLayout
-            android:id="@+id/startDateView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:orientation="vertical"
-            android:padding="15dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-            <TextView
-                android:id="@+id/date1start"
-                android:layout_width="360dp"
-                android:layout_height="30dp" />
-        </LinearLayout>
 
         <TextView
-            android:id="@+id/start_date"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
+            android:id="@+id/time1"
+            android:layout_width="83dp"
+            android:layout_height="36dp"
+            android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+            android:text="Time"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <!--<com.google.android.material.textfield.TextInputLayout
+            android:layout_width="284dp"
+            android:layout_height="match_parent">-->
+
+        <EditText
+            android:id="@+id/editTime"
+            android:layout_width="253dp"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="time" />
+        <!--</com.google.android.material.textfield.TextInputLayout>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sDate"
+        android:layout_width="210dp"
+        android:layout_height="56dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time"
+        app:layout_constraintVertical_bias="0.027">
+
+        <!--<EditText
+            android:id="@+id/date1"
+            android:layout_width="200dp"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:drawableEnd="@drawable/calender"
+            android:hint="Start Date"
+
+            />-->
+
+        <!-- &lt;!&ndash; <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="242dp"
+            android:layout_height="match_parent">&ndash;&gt;-->
+
+        <Button
+            android:id="@+id/startDate"
+            android:layout_width="130dp"
+            android:layout_height="36dp"
+            android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
             android:text="Start Date"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/DueDateCard"
-        android:layout_width="394dp"
-        android:layout_height="88dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.538"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/StartDateCard"
-        app:layout_constraintVertical_bias="0.059">
-
-        <LinearLayout
-            android:id="@+id/DueDateView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:orientation="vertical"
-            android:padding="15dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-            <TextView
-                android:id="@+id/date1End"
-                android:layout_width="360dp"
-                android:layout_height="30dp" />
-        </LinearLayout>
+            app:backgroundTint="#00D4A3"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
 
         <TextView
-            android:id="@+id/due_date"
+            android:id="@+id/Date1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:text="Due date"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
 
-    </androidx.cardview.widget.CardView>
+
+        <!-- </com.google.android.material.textfield.TextInputLayout>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/endDate"
+        android:layout_width="232dp"
+        android:layout_height="68dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sDate"
+        app:layout_constraintVertical_bias="0.078">
+
+        <!--  <EditText
+            android:id="@+id/dueDate1"
+            android:layout_width="200dp"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:drawableEnd="@drawable/calender"
+            android:hint="Due Date"
+
+            />-->
+        <Button
+            android:id="@+id/dueDate"
+            android:layout_width="130dp"
+            android:layout_height="36dp"
+            android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+            android:text="Due Date"
+            app:backgroundTint="#00D4A3"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <!--&lt;!&ndash;  <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="244dp"
+            android:layout_height="80dp">&ndash;&gt;-->
+
+        <TextView
+            android:id="@+id/dueDate1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+        <!--</com.google.android.material.textfield.TextInputLayout>-->
+    </LinearLayout>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/completion_status"
@@ -352,7 +249,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/DueDateCard"
+        app:layout_constraintTop_toBottomOf="@+id/endDate"
         app:layout_constraintVertical_bias="0.059">
 
 
@@ -399,56 +296,458 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="400dp"
-        android:layout_height="175dp"
+    <Button
+        android:id="@+id/updateTask"
+        android:layout_width="197dp"
+        android:layout_height="40dp"
+        android:text="Update Task"
+        app:backgroundTint="#00BCD4"
+        app:backgroundTintMode="src_in"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintHorizontal_bias="0.467"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/completion_status"
-        app:layout_constraintVertical_bias="0.089">
+        app:layout_constraintVertical_bias="0.444" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+    <Button
+        android:id="@+id/DeleteTaskButton"
+        android:layout_width="201dp"
+        android:layout_height="38dp"
+        android:text="Delete task"
+        app:backgroundTint="#E91E36"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateTask"
+        app:layout_constraintVertical_bias="0.181" />
 
-            <Button
-                android:id="@+id/SaveStateButton"
-                android:layout_width="355dp"
-                android:layout_height="39dp"
-                android:text="Save State"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.51"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.093" />
+    <!--  &lt;!&ndash;<LinearLayout
+          android:id="@+id/ll_user_name"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="16dp"
+          android:layout_marginStart="16dp"
+          android:layout_marginTop="16dp"
+          android:layout_marginEnd="16dp"
+          android:orientation="vertical"
+          android:padding="15dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent">
 
-            <Button
-                android:id="@+id/EditTaskButton"
-                android:layout_width="355dp"
-                android:layout_height="39dp"
-                android:text="Edit Task"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/SaveStateButton"
-                app:layout_constraintVertical_bias="0.078" />
-            <Button
-                android:id="@+id/DeleteTaskButton"
-                android:layout_width="355dp"
-                android:layout_height="39dp"
-                android:text="Delete Task"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/EditTaskButton"
-                app:layout_constraintVertical_bias="0.078" />
+          <TextView
+              android:id="@+id/tv_user_name"
+              android:layout_width="360dp"
+              android:layout_height="30dp"
+               />
+      </LinearLayout>
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.cardview.widget.CardView>
+      <TextView
+          android:id="@+id/tv_user_name_title"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="8dp"
+          android:layout_marginEnd="8dp"
+          android:text="  Task Title  "
+          android:textSize="20dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"/>
+
+      <RelativeLayout
+          android:id="@+id/describeFun"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="40dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/ll_user_name">
+
+          <LinearLayout
+              android:id="@+id/description"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="16dp"
+              android:layout_marginBottom="16dp"
+              android:orientation="vertical"
+              android:padding="15dp"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintVertical_bias="0.078">
+
+              <TextView
+                  android:id="@+id/describe"
+                  android:layout_width="360dp"
+                  android:layout_height="130dp" />
+          </LinearLayout>
+
+        <TextView
+              android:id="@+id/Description"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginStart="32dp"
+              android:layout_marginTop="8dp"
+              android:layout_marginEnd="8dp"
+              android:textSize="20"
+             android:text="Description"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.0"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent" />
+
+      </RelativeLayout>
+
+      <TextView
+          android:id="@+id/textView9"
+          android:layout_width="222dp"
+          android:layout_height="27dp"
+          android:layout_marginTop="44dp"
+          android:text="Due Date"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.169"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/describeFun"
+          app:layout_constraintVertical_bias="0.0" />
+
+      <TextView
+          android:id="@+id/textView11"
+          android:layout_width="216dp"
+          android:layout_height="30dp"
+          android:text="Completion Status"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.09"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/textView9"
+          app:layout_constraintVertical_bias="0.042" />
+
+      <Spinner
+          android:id="@+id/state"
+          android:layout_width="396dp"
+          android:layout_height="30dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/textView11"
+          app:layout_constraintVertical_bias="0.046" />
+
+      <Button
+          android:id="@+id/button"
+          android:layout_width="173dp"
+          android:layout_height="38dp"
+          android:text="Save State"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.455"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/state"
+          app:layout_constraintVertical_bias="0.087" />
+
+      <Button
+          android:id="@+id/button2"
+          android:layout_width="151dp"
+          android:layout_height="42dp"
+          android:text="Edit Task"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.419"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/button"
+          app:layout_constraintVertical_bias="0.066" />
+
+      <Button
+          android:id="@+id/button3"
+          android:layout_width="168dp"
+          android:layout_height="45dp"
+          android:text="DELETE TASK"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.45"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/button2"
+          app:layout_constraintVertical_bias="0.064" />&ndash;&gt;
 
 
+      <androidx.cardview.widget.CardView
+          android:id="@+id/taskNameCard"
+          android:layout_width="400dp"
+          android:layout_height="79dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.001">
+
+          <LinearLayout
+              android:id="@+id/ll_user_name"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="16dp"
+              android:layout_marginStart="16dp"
+              android:layout_marginTop="16dp"
+              android:layout_marginEnd="16dp"
+              android:orientation="vertical"
+              android:padding="15dp"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent">
+
+              <TextView
+                  android:id="@+id/taskTitle"
+                  android:layout_width="360dp"
+                  android:layout_height="30dp" />
+
+
+
+          </LinearLayout>
+
+          <TextView
+              android:id="@+id/tv_user_name_title"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginStart="32dp"
+              android:layout_marginTop="8dp"
+              android:layout_marginEnd="8dp"
+              android:text="Task Title"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.0"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent" />
+
+      </androidx.cardview.widget.CardView>
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/DescriptionCard"
+          android:layout_width="413dp"
+          android:layout_height="152dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/taskNameCard"
+          app:layout_constraintVertical_bias="0.044">
+
+          <LinearLayout
+              android:id="@+id/description"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="16dp"
+              android:layout_marginBottom="16dp"
+              android:orientation="vertical"
+              android:padding="15dp"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintVertical_bias="0.078">
+
+              <TextView
+                  android:id="@+id/describe"
+                  android:layout_width="360dp"
+                  android:layout_height="130dp" />
+          </LinearLayout>
+
+          <TextView
+              android:id="@+id/Description"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginStart="32dp"
+              android:layout_marginTop="8dp"
+              android:layout_marginEnd="8dp"
+              android:text="Description"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.0"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent" />
+      </androidx.cardview.widget.CardView>
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/StartDateCard"
+          android:layout_width="391dp"
+          android:layout_height="87dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.666"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/DescriptionCard"
+          app:layout_constraintVertical_bias="0.066">
+
+          <LinearLayout
+              android:id="@+id/startDateView"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="16dp"
+              android:layout_marginStart="16dp"
+              android:layout_marginTop="16dp"
+              android:layout_marginEnd="16dp"
+              android:orientation="vertical"
+              android:padding="15dp"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent">
+
+              <TextView
+                  android:id="@+id/date1start"
+                  android:layout_width="360dp"
+                  android:layout_height="30dp" />
+          </LinearLayout>
+
+          <TextView
+              android:id="@+id/start_date"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginStart="32dp"
+              android:layout_marginTop="8dp"
+              android:layout_marginEnd="8dp"
+              android:text="Start Date"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.0"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent" />
+
+      </androidx.cardview.widget.CardView>
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/DueDateCard"
+          android:layout_width="394dp"
+          android:layout_height="88dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.538"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/StartDateCard"
+          app:layout_constraintVertical_bias="0.059">
+
+          <LinearLayout
+              android:id="@+id/DueDateView"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="16dp"
+              android:layout_marginStart="16dp"
+              android:layout_marginTop="16dp"
+              android:layout_marginEnd="16dp"
+              android:orientation="vertical"
+              android:padding="15dp"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent">
+
+              <TextView
+                  android:id="@+id/date1End"
+                  android:layout_width="360dp"
+                  android:layout_height="30dp" />
+          </LinearLayout>
+
+          <TextView
+              android:id="@+id/due_date"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginStart="32dp"
+              android:layout_marginTop="8dp"
+              android:layout_marginEnd="8dp"
+              android:text="Due date"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.0"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent" />
+
+      </androidx.cardview.widget.CardView>
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/completion_status"
+          android:layout_width="385dp"
+          android:layout_height="45dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.538"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/DueDateCard"
+          app:layout_constraintVertical_bias="0.059">
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+              <androidx.constraintlayout.widget.ConstraintLayout
+                  android:layout_width="175dp"
+                  android:layout_height="match_parent">
+
+                  <TextView
+                      android:id="@+id/textView11"
+                      android:layout_width="141dp"
+                      android:layout_height="30dp"
+                      android:layout_marginBottom="12dp"
+                      android:text="Completion Status"
+                      app:layout_constraintBottom_toBottomOf="parent"
+                      app:layout_constraintEnd_toEndOf="parent"
+                      app:layout_constraintHorizontal_bias="1.0"
+                      app:layout_constraintStart_toStartOf="parent"
+                      app:layout_constraintTop_toTopOf="parent"
+                      app:layout_constraintVertical_bias="1.0" />
+
+              </androidx.constraintlayout.widget.ConstraintLayout>
+
+              <androidx.constraintlayout.widget.ConstraintLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+                  <Spinner
+                      android:id="@+id/state"
+                      android:layout_width="match_parent"
+                      android:layout_height="30dp"
+                      app:layout_constraintBottom_toBottomOf="parent"
+                      app:layout_constraintEnd_toEndOf="parent"
+                      app:layout_constraintHorizontal_bias="0.0"
+                      app:layout_constraintStart_toStartOf="parent"
+                      app:layout_constraintTop_toTopOf="parent"
+                      app:layout_constraintVertical_bias="0.407" />
+
+              </androidx.constraintlayout.widget.ConstraintLayout>
+          </LinearLayout>
+      </androidx.cardview.widget.CardView>
+
+      <androidx.cardview.widget.CardView
+          android:layout_width="400dp"
+          android:layout_height="175dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.454"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/completion_status"
+          app:layout_constraintVertical_bias="0.089">
+
+          <androidx.constraintlayout.widget.ConstraintLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+
+              <Button
+                  android:id="@+id/EditTaskButton"
+                  android:layout_width="221dp"
+                  android:layout_height="45dp"
+                  android:text="Edit Task"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintHorizontal_bias="0.502"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toBottomOf="@+id/SaveStateButton"
+                  app:layout_constraintVertical_bias="0.0" />
+
+
+          </androidx.constraintlayout.widget.ConstraintLayout>
+      </androidx.cardview.widget.CardView>
+
+  -->
 </androidx.constraintlayout.widget.ConstraintLayout>
 

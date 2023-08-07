@@ -12,13 +12,16 @@ import com.google.gson.reflect.TypeToken
 data class TasksCreator(
     @PrimaryKey(autoGenerate = true)
     val task_id: Int,
-    val taskName:String,
+    var taskName:String,
     //val description: String,
-    val description: ArrayList<String>,
-    val startDate: String,
-    val dueDate: String,
+    var description: ArrayList<String>,
+    var time:String,
+    var startDate: String,
+    var dueDate: String,
+
     //var checked: Boolean
-    val status: String
+    var status: String,
+
 )
 /*class DescriptionTypeConvertor {
     @TypeConverter

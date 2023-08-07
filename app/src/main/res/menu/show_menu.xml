@@ -7,7 +7,7 @@
      />
     <item
         android:id="@+id/delete"
-        android:title="Edit Task"
+        android:title="Delete Task"
         android:icon="@drawable/ic_delete"
         />
 

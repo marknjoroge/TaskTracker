@@ -37,7 +37,7 @@ class Task1Adapter :RecyclerView.Adapter<Task1Adapter.ViewHolder>() {
 
     inner class ViewHolder : RecyclerView.ViewHolder(binding.root){
 
-        init {
+        /*init {
             binding.mMenus.setOnClickListener(this)
         }
 
@@ -65,16 +65,18 @@ class Task1Adapter :RecyclerView.Adapter<Task1Adapter.ViewHolder>() {
             }
             popupMenu.show()
         }
-
+*/
 
         @SuppressLint("setText")
         fun setData(item : TasksCreator){
+
         binding.apply {
             //taskId.text =item.id.toString()
             cardTaskName.text=item.taskName
             cardStartDate.text=item.startDate
             cardDueDate.text=item.dueDate
             status1.text= item.status.toString()
+            cardStartTime.text=item.time
 
 
 
