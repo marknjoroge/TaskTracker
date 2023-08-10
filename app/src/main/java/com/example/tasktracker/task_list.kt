@@ -8,6 +8,7 @@ import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.room.Room
+import androidx.viewpager.widget.ViewPager
 import com.example.TaskDatabase
 import com.example.tasktracker.databinding.ActivityTaskListBinding
 import com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -33,6 +34,19 @@ class task_list : AppCompatActivity() {
         super.onCreate(savedInstanceState)
          binding= ActivityTaskListBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+
+        val viewPager = findViewById<ViewPager>(R.id.view_pager)
+
+        viewPager.apply {
+            clipChildren = false  // No clipping the left and right items
+            clipToPadding = false  // Show the viewpager in full width without clipping the padding
+            offscreenPageLimit = 3  // Render the left and right items
+            (getChildAt(0) as RecyclerView).overScrollMode =
+                RecyclerView.OVER_SCROLL_NEVER // Remove the scroll effect
+        }
+
+        viewPager.adapter = QuotesRVAdapter()
         //setContentView(R.layout.activity_task_list)
 
         // Initialize the RecyclerView
